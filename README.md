@@ -1,4 +1,12 @@
 
+
+# Python_simple_crud_api
+
+Como foi descrito na descrição do projeto, o mesmo foi criado para servir como trabalho final da máteria regida pelo docente Adriano Ferraz.
+Essa api é baseada nos conceitos base da Trasnfêrencia de Estado Representacional ou REST, usando os 4 métodos principais do protocolo HTTP, GET,POST,PUT/UPDATE e DELETE.
+
+
+
 ## Documentação da API
 
 #### get_products_list(request)
@@ -53,5 +61,7 @@ Recebe uma requisição,verifica se o Id de nome pk enviado é um produto existe
 | Parâmetro   | Tipo       | Descrição                                   |
 | :---------- | :--------- | :------------------------------------------ |
 | `pk`      | `int` | **Obrigatório**. O ID do produto que você quer apagar. |
+
+
 
 
